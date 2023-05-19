@@ -1,0 +1,58 @@
+{
+    "sourceFile": "database/seeders/DatabaseSeeder.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1669984073297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669984081239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n      */\n     public function run()\n     {\n         DB::table('users')->insert([\n-            'email' => 'admin@site.co.uk',\n+            'email' => 'a@site.co.uk',\n             'first_name' => 'Site',\n             'last_name' => 'Admin',\n             'username' => 'admin',\n             'password' => Hash::make('localhostPassword') // <---- check this\n"
+                },
+                {
+                    "date": 1669984086968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n      */\n     public function run()\n     {\n         DB::table('users')->insert([\n-            'email' => 'a@site.co.uk',\n+            'email' => 'a@a.com',\n             'first_name' => 'Site',\n             'last_name' => 'Admin',\n             'username' => 'admin',\n             'password' => Hash::make('localhostPassword') // <---- check this\n"
+                },
+                {
+                    "date": 1669984135489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     public function run()\n     {\n         DB::table('users')->insert([\n             'email' => 'a@a.com',\n-            'first_name' => 'Site',\n+            \n             'last_name' => 'Admin',\n             'username' => 'admin',\n             'password' => Hash::make('localhostPassword') // <---- check this\n         ]);\n"
+                },
+                {
+                    "date": 1669984142021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,8 @@\n     public function run()\n     {\n         DB::table('users')->insert([\n             'email' => 'a@a.com',\n-            \n-            'last_name' => 'Admin',\n             'username' => 'admin',\n             'password' => Hash::make('localhostPassword') // <---- check this\n         ]);\n     }\n"
+                },
+                {
+                    "date": 1669984147817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     public function run()\n     {\n         DB::table('users')->insert([\n             'email' => 'a@a.com',\n+\n             'username' => 'admin',\n             'password' => Hash::make('localhostPassword') // <---- check this\n         ]);\n     }\n"
+                },
+                {
+                    "date": 1669984153275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,8 @@\n     public function run()\n     {\n         DB::table('users')->insert([\n             'email' => 'a@a.com',\n-\n             'username' => 'admin',\n             'password' => Hash::make('localhostPassword') // <---- check this\n         ]);\n     }\n"
+                },
+                {
+                    "date": 1669984160601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,11 @@\n      */\n     public function run()\n     {\n         DB::table('users')->insert([\n+            'username' => 'admin',\n             'email' => 'a@a.com',\n-            'username' => 'admin',\n+    \n             'password' => Hash::make('localhostPassword') // <---- check this\n         ]);\n     }\n }\n"
+                },
+                {
+                    "date": 1669984166260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,8 @@\n     {\n         DB::table('users')->insert([\n             'username' => 'admin',\n             'email' => 'a@a.com',\n-    \n-            'password' => Hash::make('localhostPassword') // <---- check this\n+            'password' => Hash::make('12345678') // <---- check this\n         ]);\n     }\n }\n"
+                },
+                {
+                    "date": 1669984286983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n \n namespace Database\\Seeders;\n \n use Illuminate\\Database\\Seeder;\n+use\n \n-\n class DatabaseSeeder extends Seeder\n {\n     /**\n      * Seed the application's database.\n"
+                },
+                {
+                    "date": 1669984293366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n namespace Database\\Seeders;\n \n use Illuminate\\Database\\Seeder;\n-use App\\\n+use App\\H\n \n class DatabaseSeeder extends Seeder\n {\n     /**\n"
+                }
+            ],
+            "date": 1669984073297,
+            "name": "Commit-0",
+            "content": "<?php\n\nnamespace Database\\Seeders;\n\nuse Illuminate\\Database\\Seeder;\n\nclass DatabaseSeeder extends Seeder\n{\n    /**\n     * Seed the application's database.\n     *\n     * @return void\n     */\n    public function run()\n    {\n        DB::table('users')->insert([\n            'email' => 'admin@site.co.uk',\n            'first_name' => 'Site',\n            'last_name' => 'Admin',\n            'username' => 'admin',\n            'password' => Hash::make('localhostPassword') // <---- check this\n        ]);\n    }\n}\n"
+        }
+    ]
+}
