@@ -16,40 +16,40 @@ Website point of sales adalah Website Kasir online yang bisa membantu dalam Berd
 > - NodeJS
 
 ## Instalasi
-1. Clone project
+1. **Clone project**
 ```
 git clone https://github.com/Ridho-Ridwansyah/Point-Of-Sales-Website.git
 ```
 ```
 composer update
 ```
-2. Create .env file
+2. **Create .env file**
 ```
 cp .env.example .env
 ```
 ```
 php artisan key:generate
 ```
-3. Buat Database sesuai di .env
+3. **Buat Database sesuai di .env**
 
-4. Lakukan Migrate Dan seeder
+4. **Lakukan Migrate Dan seeder**
 ```
 php artisan migrate
 ```
 ```
 php artisan db:seed
 ```
-5. Jalankan Project
+5. **Jalankan Project**
 ```
 npm run watch
 ```
 ```
 php artisan Serve
 ```
-5. Buka Project dibrowser
-6. 
+5. **Buka Project dibrowser**
+
 ### Note
-> user : admin
-> password: 12345678
+> user = admin
+> password = 12345678
 
 > jika ingin ubah melalui "database>seeders>DatabaseSeeder.php"
