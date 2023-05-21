@@ -49,7 +49,7 @@ php artisan Serve
 5. **Buka Project dibrowser**
 
 ### Note
-> user = admin
-> password = 12345678
+> user = admin;
+> password = 12345678;
 
 > jika ingin ubah melalui "database>seeders>DatabaseSeeder.php"
