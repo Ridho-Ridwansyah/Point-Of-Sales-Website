@@ -23,23 +23,21 @@ git clone https://github.com/Ridho-Ridwansyah/Point-Of-Sales-Website.git
 ```
 composer update
 ```
-2. **Create .env file**
+2. **Buat file .env dan database**
 ```
 cp .env.example .env
 ```
 ```
 php artisan key:generate
 ```
-3. **Buat Database sesuai di .env**
-
-4. **Lakukan Migrate Dan seeder**
+3. **Lakukan Migrate Dan seeder**
 ```
 php artisan migrate
 ```
 ```
 php artisan db:seed
 ```
-5. **Jalankan Project**
+4. **Jalankan Project**
 ```
 npm run watch
 ```
@@ -55,4 +53,4 @@ php artisan Serve
 > jika ingin ubah melalui "database>seeders>DatabaseSeeder.php"
 
 ## Lisensi
-[MIT License](https://psycode.epizy.com](https://opensource.org/license/mit/)
+[MIT License](https://opensource.org/license/mit/)
