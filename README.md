@@ -53,3 +53,6 @@ php artisan Serve
 - password = 12345678
 
 > jika ingin ubah melalui "database>seeders>DatabaseSeeder.php"
+
+## Lisensi
+[MIT License](https://psycode.epizy.com](https://opensource.org/license/mit/)
