@@ -1,7 +1,14 @@
 # Point Of Sales Website
 Website point of sales adalah Website Kasir online yang bisa membantu dalam Berdagang terutama untuk penjualan dan mendata suatu produk
 
-## fitur
+## Fitur
+> - Login Admin Masuk
+> - Tambah, edit, dan hapus barang
+> - Pengubahan stok
+> - Memasukan Item ke Keranjang
+> - Checkout dan pembayaran
+> - Riwayat transaksi
+> - Print Struk
 
 ## Requirement
 > - PHP 7
