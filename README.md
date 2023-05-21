@@ -30,15 +30,26 @@ cp .env.example .env
 ```
 php artisan key:generate
 ```
-- Buat Database sesuai di .env
-- Lakukan Migrate
-- ketik diterminal "php artisan db:seed"
-- ketik diterminal "php artisan migrate"
-- ketik diterminal "npm run watch"
-- jalankan project dibrowser
+3. Buat Database sesuai di .env
 
-*Note
-user : admin
-password: 12345678
+4. Lakukan Migrate Dan seeder
+```
+php artisan migrate
+```
+```
+php artisan db:seed
+```
+5. Jalankan Project
+```
+npm run watch
+```
+```
+php artisan Serve
+```
+5. Buka Project dibrowser
+6. 
+### Note
+> user : admin
+> password: 12345678
 
-jika ingin ubah melalui "database>seeders>DatabaseSeeder.php"
+> jika ingin ubah melalui "database>seeders>DatabaseSeeder.php"
